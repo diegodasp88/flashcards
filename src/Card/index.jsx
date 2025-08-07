@@ -1,5 +1,7 @@
 import "./index.css"
 
-export function Card(){
-    return <div>O que é React?</div>
+export function Card(props){
+    return <div>
+        {props.text}
+    </div>
 }
